@@ -48,8 +48,10 @@
 }
 
 .search:hover{
-  box-shadow: 0 0 1rem 0.6rem rgba(2, 247, 112, 0.5);
+   box-shadow: 0 0 1rem 0.6rem rgba(2, 247, 112, 0.5);
   border-radius: 2rem;
+  height: 2.5rem;
+  width: 12rem;
 }
 
 .panel{

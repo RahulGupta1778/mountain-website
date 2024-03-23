@@ -43,7 +43,7 @@
     }
     .search input {
         width: 100%; /* Fill the container */
-        margin: 1rem 0; /* Add space between elements */
+        margin: 0rem 0; /* Add space between elements */
     }
 }
 

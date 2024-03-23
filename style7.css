@@ -1,0 +1,801 @@
+*{
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    transition: all.50s ease;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #131c28;
+    height: 5rem;
+    transition: all.50s ease;
+}
+
+.icon i{
+    font-size: 1.5rem;
+    margin-left: 5rem;
+}
+
+.hiking h1{
+    color: #0cc4df;
+    font-size: 1.5rem;
+    margin-left: -5rem;
+}
+
+.nav{
+    display: flex;
+}
+
+.nav li a{
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+    padding: 0rem 3rem;
+    font-size: 1.2rem;
+}
+
+.search input{
+    height: 2.5rem;
+    width: 12rem;
+   border-radius: 2rem;
+   text-align: center;
+   font-size: 1.2rem;
+}
+
+.search:hover{
+  box-shadow: 0 0 1rem 0.6rem rgba(2, 247, 112, 0.5);
+  border-radius: 2rem;
+}
+
+.panel{
+    display: flex;
+    justify-content: space-between;
+    height: 45rem;
+    background: linear-gradient(to right , #1f262f 50%, #131c28 50%, #acff9d 100%);
+}
+
+.hike h1{
+    font-family: "Bitter", serif;
+    color: #ffffff;
+    font-size: 3rem;
+    margin-left: 6rem;
+    padding-top: 6rem;
+}
+
+.hike h2{
+    font-family: "Bitter", serif;
+    color: #ffffff;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.hike h3{
+    font-family: "Bitter", serif;
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 1rem;
+    margin-left: -1.2rem;
+}
+
+.hike h4{
+    font-family: "Bitter", serif;
+    color: #ffffff;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 400;
+    margin-left: -5rem;
+}
+
+.hike p{
+    font-family: "Bitter", serif;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: bold;
+   margin-left: 6rem;
+    margin-top: 1.5rem;
+}
+
+.img{
+    display: flex;
+    height: 45rem;
+    width: 45rem;
+}
+
+.panel1{
+    height: 86rem;
+    background-color: #ffffff;
+    padding: 3rem;
+}
+
+.camping h1{
+    font-family: "Bitter", serif;
+    color: #1f262f;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.camping h2{
+    font-family: "Bitter", serif;
+    color: #1f262f;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-decoration: underline #0cc4df;
+    text-underline-offset: 2rem ;
+    text-decoration-thickness: 0.4rem;
+}
+
+.box{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10rem;
+}
+
+.card img{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 15rem;
+    text-align: end;
+    margin-left: 3rem;
+}
+
+.card h1{
+    font-family: "Bitter", serif;
+    color: #1f262f;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.card p{
+    font-family: "Bitter", serif;
+    color: #1f262f;
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.rock{
+    margin-top: 10rem;
+}
+
+.rock h1{
+    font-family: "Bitter", serif;
+    color: #1f262f;
+    font-size: 2.2rem;
+}
+
+.rock h2{
+    font-family: "Bitter", serif;
+    color: #1f262f;
+    font-size: 2.5rem;
+}
+
+.event{
+    display: flex;
+    justify-content: space-between;
+}
+
+.event1 h1{
+    font-family: "Bitter", serif;
+    color: #1f262f;
+    font-size: 2rem;
+    margin-top: 4rem;
+}
+
+.event1 h2{
+    font-family: "Bitter", serif;
+    color: #1f262f;
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-top: 1.3rem;
+}
+
+.event1 h3{
+    font-family: "Bitter", serif;
+    color: #1f262f;
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-top: 1.5rem;
+}
+
+.event1 h4{
+    font-family: "Bitter", serif;
+    color: #1f262f;
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-top: 0.5rem;
+}
+
+.event1 h5{
+    font-family: "Bitter", serif;
+    color: #1f262f;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+
+.event1 h6{ 
+    font-family: "Bitter", serif;
+    color: #1f262f;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.event1 p{
+    font-family: "Bitter", serif;
+    color: #1f262f;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-top: -2.9rem;
+    margin-left: 8rem;
+}
+
+.event2 img{
+    height: 18rem;
+    width: 19rem;
+    border-radius: 20rem;
+    margin-right: 10rem;
+}
+
+.event2 p{
+        font-family: "Permanent Marker";
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #fd5f00;
+    margin-left: -7rem;
+    margin-top: 2rem;
+}
+
+.park{
+    display: flex;
+    height: 30rem;
+}
+
+.park1{
+    background-image:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url(a3.jpg);
+    height: 30rem;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.park1 h1{
+    font-family: "Permanent Marker";
+    font-size: 2.3rem;
+    font-weight: 400;
+    color: #ffffff;
+    margin-top: 8rem;
+    margin-left: 10rem;
+}
+
+.park1 h2{
+    font-family: "Bitter", serif;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-top: 2rem;
+    margin-left: 10rem;
+}
+
+.park1 p{
+    font-family: "Bitter", serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #ffffff;
+    margin-top: 1rem;
+    margin-left: 10rem;
+}
+
+.park1 button{
+    font-family: "Bitter", serif;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #1f262f;
+    margin-top: 2rem;
+    margin-left: 10rem;
+    border-color: #0cc4df;
+    height: 1.5rem;
+    width: 8rem;
+    text-align: center;
+}
+
+.park1 button:hover{
+    animation: bubble 0.9s ease-out;
+  
+}
+
+  .panel2{
+    display: flex;
+    justify-content: space-between;
+    height: 62rem;
+  }
+
+  .fit{
+    padding-top: 2.5rem;
+    margin-left: 2rem;
+  }
+
+  .fit h1{
+    font-family: "Bitter", serif;
+    color: #1f262f;
+    font-size: 1.8rem;
+  }
+
+  .fit h2{
+    font-family: "Bitter", serif;
+    color: #ffffff;
+    font-size: 1rem;
+     text-decoration: underline #0cc4df;
+    text-underline-offset: 2rem ;
+    text-decoration-thickness: 0.4rem;
+    margin-top: -0.7rem;
+  }
+
+  .fit1{
+    display: flex;
+  }
+
+  .fit1 img{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 15rem;
+    margin-top: 7rem;
+  }
+
+  .fit1 p{
+    font-family: "Bitter", serif;
+    font-style: italic;
+    color: #1f262f;
+    font-size: 1.3rem;
+    margin-top: 9.5rem;
+    margin-left: 2rem;
+  }
+
+  .fit2{
+    display: flex;
+  }
+
+  .fit2 img{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 15rem;
+    margin-top: 3rem;
+  }
+
+  .fit2 p{
+    font-family: "Bitter", serif;
+    font-style: italic;
+    color: #1f262f;
+    font-size: 1.3rem;
+    margin-top: 5rem;
+    margin-left: 2rem;
+  }
+
+  .fit3{
+    display: flex;
+  }
+
+  .fit3 img{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 15rem;
+    margin-top: 4rem;
+  }
+
+  .fit3 p{
+    font-family: "Bitter", serif;
+    font-style: italic;
+    color: #1f262f;
+    font-size: 1.3rem;
+    margin-top: 6.5rem;
+    margin-left: 2rem;
+  }
+
+  .fit4 img{
+    height: 26rem;
+    width: 27rem;
+    border-radius: 20rem;
+    margin-right: 10rem;
+    margin-top: 20rem;
+}
+
+.fit4 p{
+        font-family: "Permanent Marker";
+    font-size: 1.6rem;
+    color: #0cc4df;
+    margin-left: 3rem;
+    margin-top: 2rem;
+}
+
+.nature{
+    display: flex;
+    justify-content: space-around;
+    height: 50rem;
+    background-color: #1f262f;
+    padding-top: 8rem;
+}
+
+.nature1 h1{
+    font-family: "Permanent Marker";
+    color: #fd5f00;
+    font-size: 2rem;
+    font-weight: 400;
+    padding-top: 5rem;
+
+}
+
+.nature1 h2{
+    font-family: "Bitter", serif;
+    color: #ffffff;
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.nature1 p{
+    font-family: "Bitter", serif;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 1rem;
+}
+
+/*--PIC CUT IN CORNER CODE--*/
+
+.nature2{
+    display: flex;
+}
+
+.nature2 img{
+    border: 0.1rem solid #ddd;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    width: 15rem;
+    height: 40rem;
+    width: 40rem;
+    margin-top: -3rem;
+}
+
+.nature2 img:hover{
+    box-shadow: 0 0 1rem 0.8rem rgba(0,140,186,0.5);
+}
+
+/*--new PANEL START--*/
+
+.panel3{
+    display: flex;
+    height: 15rem;
+    background-color: #ffffff;
+}
+
+.loop{
+    display: flex;
+    justify-content: space-around;
+    height: 30rem;
+}
+
+.visit h1{
+    font-family: "Bitter", serif;
+    color: #1f262f;
+    font-size: 2.3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 5rem;
+}
+
+.visit1 img{
+    height: 15rem;
+    width: 16rem;
+    border-radius: 10rem;
+}
+
+.visit1 h1{
+    font-family: "Bitter", serif;
+    color: #1f262f;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1.5rem;
+    text-decoration: underline #c4b4cc;
+    text-underline-offset: 6rem;
+    text-decoration-thickness: 0.1rem;
+}
+
+.visit1 p{
+    font-family: "Bitter", serif;
+    color: #1f262f;
+    font-size: 1.3rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+
+.visit1 h2{
+    font-family: "Bitter", serif;
+    color: #1f262f;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 2.5rem;
+}
+
+.box2{
+    display: flex;
+    justify-content: center;
+    height: 5rem;
+}
+
+.box2 h1{
+    font-family: "Bitter", serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #1f262f;
+    border-style: ridge;
+    border-color: #0cc4df;
+    height: 1.5rem;
+    width: 8rem;
+    text-align: center;
+}
+
+.box2 h1:hover{
+    animation: bubble 0.9s ease-out;
+  
+}
+
+  @keyframes bubble {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  /*--new PANEL START--*/
+
+  .panel4{
+    display: flex;
+    justify-content: space-around;
+    height: 48rem;
+    background-color: #1f262f;
+    padding-top: 7rem;
+  }
+
+  .ice{
+    padding: 0rem;
+  }
+
+  .ice img{
+       height: 25rem;
+       width: 26rem;
+       border-radius: 20rem;
+       margin-top: 0rem;
+  }
+
+  .ice p{
+    font-family: "Permanent Marker";
+    color: #0cc4df;
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-top: 4rem;
+  }
+
+  .ice1 h1{
+    font-family: "Bitter", serif;
+    color: #ffffff;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+
+  }
+
+ .ice2 h1{
+    font-family: "Bitter", serif;
+    color: #ffffff;
+    font-size: 1.7rem;
+    margin-top: 4rem;
+ }
+
+ .ice2 p{
+    font-family: "Bitter", serif;
+    color: #ffffff;
+    font-size: 1.3rem;
+    margin-top: 1.5rem;
+ }
+
+ hr{
+   height: 0.1rem;
+  border: none;
+  background-color: #0cc4df;
+  margin-top: 1.8rem;
+ }
+
+ .ice2 h3{
+    font-family: "Bitter", serif;
+    color: #ffffff;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    font-weight: 400;
+ }
+
+ .ice2 h4{
+    font-family: "Bitter", serif;
+    color: #ffffff;
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    font-weight: 400;
+ }
+
+ .ice2 h5{
+    font-family: "Bitter", serif;
+    color: #ffffff;
+    font-size: 1.2rem;
+    margin-top: 3rem;
+    font-weight: 600;
+ }
+
+ .ice2 h6{
+    font-family: "Bitter", serif;
+    color: #ffffff;
+    font-size: 1.2rem;
+    margin-top: 0.3rem;
+    font-weight: 600;
+ }
+ 
+ .ice2 h2{
+    font-family: "Bitter", serif;
+    color: #ffffff;
+    font-size: 1.2rem;
+    margin-top: -3rem;
+    font-weight: 600;
+    margin-left: 9rem;
+ }
+
+  /*--new PANEL START--*/
+
+  .panel5{
+    display: flex;
+    height: 36rem;
+    background-color: #ffffff;
+  }
+
+  .soul{
+    background-image:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url(a3.jpg);
+    height: 36rem;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 12rem;
+  }
+
+  .soul h1{
+    font-family: "Permanent Marker";
+    color: #ffffff;
+    font-size: 2.2rem;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  .icon2{
+    text-align: center;
+  }
+
+  .icon2 i{
+    font-size: 4rem;
+    margin-top: 2rem;
+  }
+
+  .box3{
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    text-align: center;
+  }
+
+  .box3 button{
+    font-family: "Bitter", serif;
+    color: #1f262f;
+    font-size: 1rem;
+    border: 0.1rem solid #0cc4df;
+    height: 1.5rem;
+    width: 8rem;
+    text-align: center;
+  }
+
+  .box3 button:hover{
+    animation: bubble 0.9s ease-out;
+  
+}
+
+  /*--new PANEL START--*/
+
+  .panel6{
+    display: flex;
+    justify-content: space-evenly;
+    height: 20rem;
+    background-color: #ffffff;
+  }
+
+  .about{
+    padding-top: 5rem;
+  }
+
+  .about h1{
+    font-family: "Bitter", serif;
+    color: #1f262f;
+   font-size: 1.7rem;
+   font-weight: 600;
+  }
+
+  .about p{
+    font-family: "Bitter", serif;
+    color: #1f262f;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+  }
+
+  .about1{
+    display: flex;
+    margin-top: 3rem;
+  }
+
+  .about1 i{
+    font-size: 2rem;
+  }
+
+  .about1 h1{
+    font-family: "Bitter", serif;
+    color: #0cc4df;
+   font-size: 1.2rem;
+   font-weight: 400;
+   margin-top: 0.9rem;
+   margin-left: 1rem;
+  }
+
+  .about1 h2{
+    font-family: "Bitter", serif;
+    color: #0cc4df;
+   font-size: 1.2rem;
+   margin-top: 0.9rem;
+   margin-left: 0.2rem;
+  }
+
+  .about2{
+    margin-top: 7.5rem;
+  }
+
+  .about2 p{
+    font-family: "Bitter", serif;
+    color: #1f262f;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+
+  .about2 li{
+    margin-top: 0.5rem;
+  }
+
+  .about2 li a{
+    font-family: "Bitter", serif;
+    font-size: 0.9rem;
+    color: #1f262f;
+  }
+
+ .panel7 hr{
+  background-color: #0cc4df;
+  height: 1.5rem;
+ } 

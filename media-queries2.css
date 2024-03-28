@@ -20,9 +20,7 @@
         padding: 0rem 1.5rem; /* Adjust padding for smaller touch targets */
     }
 
-}
-
-  /* For screens smaller than 768px (e.g., tablets) */
+ /* For screens smaller than 768px (e.g., tablets) */
 @media (max-width: 768px) {
     .container {
         flex-direction: column;
@@ -30,6 +28,7 @@
     }
     .icon i {
         margin-left: 0; /* Reset margin */
+        margin-top: 2rem;
     }
     .hiking h1 {
         margin-left: 0; /* Reset margin */
@@ -39,25 +38,17 @@
         align-items: center; /* Center align items */
     }
     .nav li a {
-        padding: 1rem 0; /* Adjust padding for smaller touch targets */
+        padding: 0.8rem 0; /* Adjust padding for smaller touch targets */
     }
     .search input {
         width: 100%; /* Fill the container */
         margin: 0rem 0; /* Add space between elements */
     }
-        
+    
     .search{
         margin: 1rem 0; /* Add space between elements */
     }
 }
-
-@media (max-width: 368px) {
-
-    .search{
-        padding-bottom: 2rem;
-      }
-}
-
 
 /*-----SECOND PANEL-----*/
 

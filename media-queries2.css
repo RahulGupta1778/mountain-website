@@ -45,7 +45,19 @@
         width: 100%; /* Fill the container */
         margin: 0rem 0; /* Add space between elements */
     }
+        
+    .search{
+        margin: 2rem 0; /* Add space between elements */
+    }
 }
+
+@media (max-width: 368px) {
+
+    .search{
+        padding-bottom: 2rem;
+      }
+}
+
 
 /*-----SECOND PANEL-----*/
 
